@@ -1,5 +1,33 @@
 # Classification-of-Diabetic-Retinopathy-using-Tensorflow
 
+## Packages/libraries required to run the program are:
+- Tensorflow
+- Anaconda
+- Keras
+- pip3
+- opencv
+- pandas
+- skitlearn
+- matplotlib
+- numpy
+- Keras VGG16 and Inception Model
+- os
+- glob
+
+All the above mentioned packages are compatible with python 3.5 interpreter and can be installed and imported using the command line prompt.
+
+## Instructions
+ 
+There are 3 files for the model to execute. The preprocessed images are stored in the test and training data files and the augmentation of the data is also done.
+
+Preprocess_Images.py: This python file performs the preprocessing techique and stores the images respective to the classes in the train and test dat  files.
+
+Data_Augmentation.py: This performs the augmentation process of the compact data.
+
+Train_Test_model.py: This is the main program which uses the contents of the above two files to train the models and eventually test the program. The analyzing part is commented out as it is required for us to analyze. However we included it in the program. It is not necessary to run the analyzing part.
+
+Note: If the train dataset files are not preprocessed, use the Preprocess_Images.py to prepreprocess the images and then run the main program.
+
 To access the training dataset please click the link:
 https://drive.google.com/open?id=1sqM-IONor6C3ig9afKYAv6_8u92W3R8m
 
